@@ -1,0 +1,56 @@
+fecha_valor,categoría,movimiento,concepto,importe,saldo,Prueba
+2025-09-01,Ventajas ING,Abono de intereses,Intereses a tu favor,49.68,72618.14,Abono de intereses
+2025-08-01,Ventajas ING,Abono de intereses,Intereses a tu favor,49.64,72568.46,Abono de intereses
+2025-07-01,Ventajas ING,Abono de intereses,Intereses a tu favor,17.96,72518.82,Abono de intereses
+2025-06-23,Ahorro,Productos de ahorro,Abono depósito,60000.0,72500.86,Otros
+2025-06-23,Ventajas ING,Abono de intereses,Intereses a tu favor,1906.05,12500.86,Abono de intereses
+2025-06-01,Ventajas ING,Abono de intereses,Intereses a tu favor,7.25,10594.81,Abono de intereses
+2025-05-01,Ventajas ING,Abono de intereses,Intereses a tu favor,7.31,10587.56,Abono de intereses
+2025-04-29,Movimientos excluidos,Traspaso entre cuentas,Traspaso emitido Cuenta Nómina Movimiento ING,-500.0,10580.25,transferencias interna
+2025-04-01,Ventajas ING,Abono de intereses,Intereses a tu favor,7.58,11080.25,Abono de intereses
+2025-03-01,Ventajas ING,Abono de intereses,Intereses a tu favor,10.24,11072.67,Abono de intereses
+2025-02-01,Ventajas ING,Abono de intereses,Intereses a tu favor,10.93,11062.43,Abono de intereses
+2025-01-05,Movimientos excluidos,Traspaso entre cuentas,Traspaso recibido Cuenta Nómina Movimiento ING,3000.0,11051.5,transferencias interna
+2025-01-01,Ventajas ING,Abono de intereses,Intereses a tu favor,8.29,8051.5,Abono de intereses
+2024-12-03,Movimientos excluidos,Traspaso entre cuentas,Traspaso emitido Cuenta Nómina Movimiento ING,-600.0,8043.21,transferencias interna
+2024-12-02,Movimientos excluidos,Traspaso entre cuentas,Traspaso emitido Cuenta Nómina Movimiento ING,-1000.0,8643.21,transferencias interna
+2024-12-01,Ventajas ING,Abono de intereses,Intereses a tu favor,9.63,9643.21,Abono de intereses
+2024-11-11,Movimientos excluidos,Traspaso entre cuentas,Traspaso emitido Cuenta Nómina Movimiento ING,-300.0,9633.58,transferencias interna
+2024-11-01,Ventajas ING,Abono de intereses,Intereses a tu favor,9.57,9933.58,Abono de intereses
+2024-10-09,Movimientos excluidos,Traspaso entre cuentas,Traspaso recibido Cuenta Nómina Movimiento ING,2200.0,9924.01,transferencias interna
+2024-10-01,Ventajas ING,Abono de intereses,Intereses a tu favor,7.63,7724.01,Abono de intereses
+2024-09-01,Ventajas ING,Abono de intereses,Intereses a tu favor,7.88,7716.38,Abono de intereses
+2024-08-01,Ventajas ING,Abono de intereses,Intereses a tu favor,7.87,7708.5,Abono de intereses
+2024-07-01,Ventajas ING,Abono de intereses,Intereses a tu favor,7.61,7700.63,Abono de intereses
+2024-06-01,Ventajas ING,Abono de intereses,Intereses a tu favor,7.86,7693.02,Abono de intereses
+2024-05-01,Ventajas ING,Abono de intereses,Intereses a tu favor,5.3,7685.16,Abono de intereses
+2024-04-23,Ahorro,Productos de ahorro,Abono depósito,3150.0,7679.86,Otros
+2024-04-23,Ventajas ING,Abono de intereses,Intereses a tu favor,23.21,4529.86,Abono de intereses
+2024-04-01,Ventajas ING,Abono de intereses,Intereses a tu favor,4.6,4506.65,Abono de intereses
+2024-03-01,Ventajas ING,Abono de intereses,Intereses a tu favor,4.3,4502.05,Abono de intereses
+2024-02-01,Ventajas ING,Abono de intereses,Intereses a tu favor,4.29,4497.75,Abono de intereses
+2024-01-04,Movimientos excluidos,Traspaso entre cuentas,Traspaso recibido Cuenta Nómina Movimiento ING,3000.0,4493.46,transferencias interna
+2024-01-01,Ventajas ING,Abono de intereses,Intereses a tu favor,44.52,1493.46,Abono de intereses
+2023-12-23,Ahorro,Productos de ahorro,Apertura,-60000.0,1448.94,Otros
+2023-12-23,Movimientos excluidos,Traspaso entre cuentas,Traspaso recibido Cuenta Nómina Movimiento ING,4000.0,61448.94,transferencias interna
+2023-12-23,Ahorro,Productos de ahorro,Apertura,-3150.0,57448.94,Otros
+2023-12-01,Ventajas ING,Abono de intereses,Intereses a tu favor,60.05,60598.94,Abono de intereses
+2023-11-01,Ventajas ING,Abono de intereses,Intereses a tu favor,49.9,60538.89,Abono de intereses
+2023-10-23,Movimientos excluidos,Traspaso entre cuentas,Traspaso recibido Cuenta Nómina Movimiento ING,3000.0,60488.99,transferencias interna
+2023-10-01,Ventajas ING,Abono de intereses,Intereses a tu favor,34.38,57488.99,Abono de intereses
+2023-09-20,Ahorro,Productos de ahorro,Abono depósito,25000.0,57454.61,Otros
+2023-09-20,Ventajas ING,Abono de intereses,Intereses a su favor,126.43,32454.61,Otros
+2023-09-01,Ventajas ING,Abono de intereses,Intereses a su favor,27.62,32328.18,Otros
+2023-08-01,Ventajas ING,Abono de intereses,Intereses a su favor,27.6,32300.56,Otros
+2023-06-30,Ventajas ING,Abono de intereses,Intereses a su favor,26.68,32272.96,Otros
+2023-06-19,Ahorro,Productos de ahorro,Apertura,-25000.0,32246.28,Otros
+2023-06-19,Otros ingresos,Ingresos de otras entidades,Transferencia recibida de SUAREZ CHECA SERGIO TRASPASO PARA DEPOSITO,25000.0,57246.28,transferencias interna
+2023-05-31,Ventajas ING,Abono de intereses,Intereses a su favor,21.62,32246.28,Otros
+2023-05-04,Movimientos excluidos,Traspaso entre cuentas,Traspaso recibido Cuenta Nómina Movimiento ING,5000.0,32224.66,transferencias interna
+2023-04-30,Ventajas ING,Abono de intereses,Intereses a su favor,18.02,27224.66,Otros
+2023-03-31,Ventajas ING,Abono de intereses,Intereses a su favor,13.1,27206.64,Otros
+2023-02-28,Ventajas ING,Abono de intereses,Intereses a su favor,11.28,27193.54,Otros
+2023-02-07,Movimientos excluidos,Traspaso entre cuentas,Movimiento ING Movimiento ING,5000.0,27182.26,Otros
+2023-01-31,Ventajas ING,Abono de intereses,Intereses a su favor,4.58,22182.26,Otros
+2022-12-31,Ventajas ING,Abono de intereses,Intereses a su favor,4.58,22177.68,Otros
+2022-11-30,Ventajas ING,Abono de intereses,Intereses a su favor,4.43,22173.1,Otros

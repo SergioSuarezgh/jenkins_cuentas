@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cargar Fichero</title>
+  <link rel="stylesheet" href="{% static 'css/cargar_ficheros.css' %}">
+</head>
+<body>
+  <div class="card">
+    <h1>📂 Cargar Fichero</h1>
+    <p class="info">Selecciona banco y rango de fechas. El archivo se guardará en <code>/data/&lt;Banco&gt;/</code> con el nombre <code>&lt;banco_en_minúsculas&gt;_ddmmaa_ddmmaa</code>.</p>
+
+    {% if errores %}
+      <div class="errors">
+        <strong>Revisa lo siguiente:</strong>
+        <ul>
+          {% for e in errores %}<li>{{ e }}</li>{% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+
+      <div>
+        <label for="banco">Banco</label>
+        <select id="banco" name="banco" required>
+          <option value="" disabled selected>Selecciona un banco…</option>
+          <option value="santander">Banco Santander</option>
+          <option value="bbva">BBVA</option>
+          <option value="ing">ING</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <div>
+          <label for="fecha_desde">Fecha desde</label>
+          <input id="fecha_desde" type="date" name="fecha_desde" required>
+        </div>
+        <div>
+          <label for="fecha_hasta">Fecha hasta</label>
+          <input id="fecha_hasta" type="date" name="fecha_hasta" required>
+        </div>
+      </div>
+
+      <div>
+        <label for="archivo">Fichero</label>
+        <input id="archivo" type="file" name="archivo" required>
+      </div>
+
+      <div>
+        <button class="btn btn-primary" type="submit">Subir</button>
+      </div>
+    </form>
+
+    {% if ok %}
+      <div class="ok">
+        ✅ ¡Archivo subido con éxito!<br>
+        Banco: <strong>{{ banco }}</strong><br>
+        Rango: <strong>{{ rango }}</strong><br>
+        Nombre final: <code>{{ filename }}</code><br>
+        Guardado en: <code>{{ saved_path }}</code>
+      </div>
+      <div class="actions">
+        <a class="btn btn-link" href="{% url 'home' %}">⬅ Volver al inicio</a>
+      </div>
+    {% endif %}
+  </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel Principal</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Panel de Control</h1>
+        <a href="{% url 'cargar_fichero' %}" class="btn btn-cargar">📂 Cargar Fichero</a>
+        <a href="" class="btn btn-bancos">🏦 Revisar Bancos</a>
+        <a href="" class="btn btn-resultados">📊 Resultados Totales</a>
+        <a href="" class="btn btn-graficos">📈 Ver Gráficos</a>
+    </div>
+</body>
+</html>

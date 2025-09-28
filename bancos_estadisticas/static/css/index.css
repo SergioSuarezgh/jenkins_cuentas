@@ -1,0 +1,44 @@
+body {
+            font-family: Arial, sans-serif;
+            background: #f7f9fc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .btn {
+            display: block;
+            width: 220px;
+            margin: 12px auto;
+            padding: 14px;
+            font-size: 16px;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .btn-cargar { background: #4cafef; }
+        .btn-cargar:hover { background: #3399dd; }
+
+        .btn-bancos { background: #67c587; }
+        .btn-bancos:hover { background: #4caf70; }
+
+        .btn-resultados { background: #f7b731; }
+        .btn-resultados:hover { background: #e0a420; }
+
+        .btn-graficos { background: #a67df7; }
+        .btn-graficos:hover { background: #8a5de0; }
